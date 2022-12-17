@@ -34,16 +34,16 @@ public class Car extends Vehicle {
         return type;
     }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public int getDoors() {
         return doors;
     }
 
     public void setDoors(int doors) {
         this.doors = doors;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public int getGears() {
